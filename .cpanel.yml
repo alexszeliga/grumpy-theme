@@ -1,5 +1,5 @@
 ---
     deployment:
         tasks:
-            - export DEPLOYPATH=/home3/lexandlo/public_html/bygrumpyphone/
+            - export DEPLOYPATH=/home3/lexandlo/public_html/bygrumpyphone/staging/8859/
             - /bin/cp -R . $DEPLOYPATH
