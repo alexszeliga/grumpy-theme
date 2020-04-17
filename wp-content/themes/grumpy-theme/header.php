@@ -16,12 +16,23 @@
 		<!-- wrapper -->
 		<div class="wrapper">
 			<!-- header -->
-			<header class="header clear" role="banner">
-                    <p>TODO: Build a header</p>
+			<header class="header" role="banner">
+                    <div class="header-wrapper">
+                        <div class="header-flexbox">
+                            <div class="header-brand">
+                                <p>I'm a grampa logo</p>
+                            </div>
+                            <div class="header-button">
+                                <button>when you click me, you get to see the nav.</button>
+                            </div>
+                        </div>
+                    </div>
 					<!-- nav -->
 					<nav class="nav" role="navigation">
-						<p>TODO: Build a nav</p>
-					</nav>
+                        <?php wp_nav_menu( array(
+                            'menu' => 'main-nav'
+                        ) ); ?>
+                    </nav>
 					<!-- /nav -->
 			</header>
 			<!-- /header -->
