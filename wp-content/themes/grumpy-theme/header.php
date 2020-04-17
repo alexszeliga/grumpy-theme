@@ -20,7 +20,7 @@
                     <div class="header-wrapper">
                         <div class="header-flexbox">
                             <div class="header-brand">
-                                <a href="/"><img src="img/header-logo.png" alt=""></a>
+                                <a href="/"><img src="<?php echo get_template_directory_uri(); ?>/img/header-logo.png" alt=""></a>
                             </div>
                             <div class="header-button">
                                 <button>when you click me, you get to see the nav.</button>
