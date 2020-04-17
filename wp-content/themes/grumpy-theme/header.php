@@ -20,7 +20,7 @@
                     <div class="header-wrapper">
                         <div class="header-flexbox">
                             <div class="header-brand">
-                                <p>I'm a grampa logo</p>
+                                <a href="/">I'm a grampa logo</a>
                             </div>
                             <div class="header-button">
                                 <button>when you click me, you get to see the nav.</button>
