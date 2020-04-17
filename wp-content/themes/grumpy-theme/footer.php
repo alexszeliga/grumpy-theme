@@ -1,6 +1,6 @@
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
-                <p>TODO: Footer</p>
+                <p>&copy; <?php echo date('Y'); ?> bygrumpyphone.com</p>
 			</footer>
 			<!-- /footer -->
 		</div>
