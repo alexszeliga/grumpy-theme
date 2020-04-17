@@ -2,4 +2,4 @@
     deployment:
         tasks:
             - export DEPLOYPATH=/home3/lexandlo/public_html/bygrumpyphone/wp-content/themes/
-            - /bin/cp wp-content/themes $DEPLOYPATH
+            - /bin/cp -R wp-content/themes $DEPLOYPATH
