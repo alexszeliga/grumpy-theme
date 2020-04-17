@@ -1,8 +1,11 @@
 <?php get_header(); ?>
 
-    <main role="main" aria-label="Content">
-        <h1>PAGE</h1>
-        <?php the_content(); ?>
-    </main>
+<main role="main" aria-label="Content">
+    <h1>PAGE</h1>
+    <?php if (have_posts()) : while (have_posts()) : the_post();
+            the_content();
+        endwhile;
+    endif; ?>
+</main>
 
 <?php get_footer(); ?>
