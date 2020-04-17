@@ -5,7 +5,7 @@ const prefix = require('gulp-autoprefixer');
 const sourcemaps = require('gulp-sourcemaps');
 
 // style paths
-const scssFiles = 'src/scss/*.scss';
+const scssFiles = 'src/scss/**/*.scss';
 const cssDestination = 'wp-content/themes/grumpy-theme/';
 
 // js paths
