@@ -7,3 +7,6 @@ Description: A blog for grumpyphone
 Version: 1.0
 Text Domain: grumpy
 */
+* {
+    color: #242424;
+}
