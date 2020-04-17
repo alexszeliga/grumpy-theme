@@ -1,0 +1,27 @@
+{
+  "name": "grumpy-theme",
+  "version": "1.0.0",
+  "description": "bygrumpyphone.com wordpress theme",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexszeliga/grumpy-theme.git"
+  },
+  "author": "alex szeliga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexszeliga/grumpy-theme/issues"
+  },
+  "homepage": "https://github.com/alexszeliga/grumpy-theme#readme",
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5"
+  }
+}
